@@ -1,6 +1,6 @@
 # SUPERCARS digital showroom
 
-Next.js static export for a private design and development preview. Run `npm install`, then `npm run dev`; build with `npm run build`.
+Next.js static export for the SUPERCARS design preview. Run `npm install`, then `npm run dev`; build with `npm run build`. The GitHub Pages workflow builds with the `/SUPERCARSEC` path prefix and deploys the `out/` directory.
 
 ## Source and content
 
@@ -13,6 +13,6 @@ Next.js static export for a private design and development preview. Run `npm ins
 
 - Replace static `src/data/site.ts` inventory with a live source or CMS, populate verified photographs, full specifications and inspection records, and confirm prices and status.
 - Configure a server-side lead destination, spam protection and consent handling. The current validated forms open prefilled WhatsApp; they do not store leads or claim successful submission.
-- Replace the preview origin in `src/data/site.ts` with the final approved domain. Remove the private-preview `noindex` rule in `src/app/layout.tsx` and `src/app/robots.ts` when the production site is ready.
+- Replace the GitHub Pages origin in `src/data/site.ts` with the final approved domain. Remove the preview `noindex` rule in `src/app/layout.tsx` and `src/app/robots.ts` when the production site is ready.
 - Obtain approved customer photos, testimonials, detailing before/after imagery and brand logo before replacing the corresponding editorial text treatments.
 - Confirm business hours and legal/privacy wording with Supercars. Analytics are intentionally inactive until consent and account IDs are provided.

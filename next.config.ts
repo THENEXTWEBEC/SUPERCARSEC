@@ -1,3 +1,4 @@
 import type { NextConfig } from 'next';
-const config: NextConfig = { output: 'export', images: { unoptimized: true }, trailingSlash: true };
+const basePath = process.env.GITHUB_PAGES === 'true' ? '/SUPERCARSEC' : undefined;
+const config: NextConfig = { output: 'export', basePath, images: { unoptimized: true }, trailingSlash: true };
 export default config;
