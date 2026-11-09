@@ -7,7 +7,10 @@ export const business = {
 export const asset = (path: string) => `${process.env.NEXT_PUBLIC_BASE_PATH || ''}${path}`;
 export const images = {
   hero: asset('/images/supercars/home/hero-arrival.jpg'),
-  detail: asset('/images/supercars/home/reveal-detail.jpg')
+  discover: asset('/images/supercars/home/discover-interior.jpg'),
+  detail: asset('/images/supercars/home/reveal-detail.jpg'),
+  detailing: asset('/images/supercars/home/detailing-polish.jpg'),
+  closing: asset('/images/supercars/home/closing-drive.jpg')
 };
 export type Vehicle = { id:string; slug:string; brand:string; model:string; version?:string; year:number; km:number; price:number; transmission:string; body:string; category:string; source:string; updated:string; fuel?:string; engine?:string; drive?:string; equipment?:string[]; status?:'por-confirmar'|'disponible'|'reservado'|'vendido'; image?:string; inspection?:Record<string,string> };
 const source = business.source;

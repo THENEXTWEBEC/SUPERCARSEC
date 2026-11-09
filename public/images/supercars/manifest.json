@@ -9,6 +9,16 @@
     "status": "supplied-reference",
     "usage": "editorial, not inventory"
   },
+  "discover-interior": {
+    "src": "/images/supercars/home/discover-interior.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "editorial, not inventory"
+  },
+  "detailing-polish": {
+    "src": "/images/supercars/home/detailing-polish.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "editorial service image, not a documented customer job"
+  },
   "garage-showroom": {
     "status": "awaiting-approved-photo"
   },
@@ -40,7 +50,9 @@
     "status": "awaiting-approved-photo"
   },
   "closing-hero": {
-    "status": "awaiting-approved-photo"
+    "src": "/images/supercars/home/closing-drive.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "editorial, not inventory"
   },
   "generic-performance-suv": {
     "src": "/images/supercars/inventory/generic-performance-suv.jpg",
