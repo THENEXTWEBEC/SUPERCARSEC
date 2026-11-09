@@ -10,6 +10,7 @@ export const images = {
   discover: asset('/images/supercars/home/discover-interior.jpg'),
   detail: asset('/images/supercars/home/reveal-detail.jpg'),
   detailing: asset('/images/supercars/home/detailing-polish.jpg'),
+  detailingPage: asset('/images/supercars/home/detailing-interior.jpg'),
   closing: asset('/images/supercars/home/closing-drive.jpg')
 };
 export type Vehicle = { id:string; slug:string; brand:string; model:string; version?:string; year:number; km:number; price:number; transmission:string; body:string; category:string; source:string; updated:string; fuel?:string; engine?:string; drive?:string; equipment?:string[]; status?:'por-confirmar'|'disponible'|'reservado'|'vendido'; image?:string; inspection?:Record<string,string> };

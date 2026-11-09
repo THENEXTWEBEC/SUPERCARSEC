@@ -13,3 +13,7 @@ This block is written and re-added by `next dev` — verify at `node_modules/nex
 - Nunca usar emojis ni caracteres tipográficos como iconos en móvil o escritorio.
 - Usar SVG para iconos y flechas, con trazos finos y consistentes.
 - Los SVG decorativos deben estar ocultos para lectores de pantalla; los controles interactivos deben tener un nombre accesible.
+
+## Imágenes editoriales
+
+- Fuera de la Colección, usar una imagen editorial distinta para cada sección o página; no reutilizar el mismo archivo en otro espacio.

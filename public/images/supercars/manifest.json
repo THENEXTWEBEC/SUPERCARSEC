@@ -19,6 +19,11 @@
     "status": "ai-generated-illustration",
     "usage": "editorial service image, not a documented customer job"
   },
+  "detailing-interior": {
+    "src": "/images/supercars/home/detailing-interior.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "editorial service image, not a documented customer job"
+  },
   "garage-showroom": {
     "status": "awaiting-approved-photo"
   },
