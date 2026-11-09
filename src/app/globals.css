@@ -43,3 +43,5 @@
 .vehicle-tabs button.active{border-color:var(--brand-red);color:var(--brand-red-dark)}
 .inventory-notice{border-left:3px solid var(--brand-red)}
 .footer-top .footer-wa{border-bottom-color:var(--brand-red-light);color:var(--brand-red-light)!important}
+.detailing-image{height:450px;overflow:hidden;background:#303638}
+.detailing-image img{width:100%;height:100%;object-fit:cover}
