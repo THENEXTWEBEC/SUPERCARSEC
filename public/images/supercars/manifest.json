@@ -46,10 +46,14 @@
     "status": "awaiting-approved-photo"
   },
   "detailing-before": {
-    "status": "awaiting-approved-photo"
+    "src": "/images/supercars/detailing/before.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "conceptual before/after comparison, not a documented customer job"
   },
   "detailing-after": {
-    "status": "awaiting-approved-photo"
+    "src": "/images/supercars/detailing/after.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "conceptual before/after comparison, not a documented customer job"
   },
   "private-visit": {
     "status": "awaiting-approved-photo"
