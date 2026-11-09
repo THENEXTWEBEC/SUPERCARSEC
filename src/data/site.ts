@@ -1,6 +1,7 @@
 export const business = {
   name: 'SUPERCARS', phone: '0998374984', whatsapp: '593998374984', email: 'info@supercars.ec',
   address: 'Alba Calderón, Cumbayá, Quito 170157, Ecuador',
+  maps: 'https://goo.gl/maps/jM71zYS46mb9HXBQA',
   site: 'https://thenextwebec.github.io/SUPERCARSEC',
   source: 'https://ecuador.patiotuerca.com/ptx/dealers-profile/supercars/1368'
 };
