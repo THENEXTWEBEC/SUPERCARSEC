@@ -1,0 +1,69 @@
+{
+  "hero-arrival": {
+    "src": "/images/supercars/home/hero-arrival.jpg",
+    "status": "supplied-reference",
+    "usage": "editorial, not inventory"
+  },
+  "reveal-detail": {
+    "src": "/images/supercars/home/reveal-detail.jpg",
+    "status": "supplied-reference",
+    "usage": "editorial, not inventory"
+  },
+  "garage-showroom": {
+    "status": "awaiting-approved-photo"
+  },
+  "drive-city": {
+    "status": "awaiting-approved-photo"
+  },
+  "drive-family": {
+    "status": "awaiting-approved-photo"
+  },
+  "drive-adventure": {
+    "status": "awaiting-approved-photo"
+  },
+  "drive-performance": {
+    "status": "awaiting-approved-photo"
+  },
+  "confidence-inspection": {
+    "status": "awaiting-approved-photo"
+  },
+  "handover-client": {
+    "status": "awaiting-approved-photo"
+  },
+  "detailing-before": {
+    "status": "awaiting-approved-photo"
+  },
+  "detailing-after": {
+    "status": "awaiting-approved-photo"
+  },
+  "private-visit": {
+    "status": "awaiting-approved-photo"
+  },
+  "closing-hero": {
+    "status": "awaiting-approved-photo"
+  },
+  "generic-performance-suv": {
+    "src": "/images/supercars/inventory/generic-performance-suv.jpg",
+    "small": "/images/supercars/inventory/generic-performance-suv-sm.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "inventory placeholder only, not the listed unit"
+  },
+  "generic-sedan": {
+    "src": "/images/supercars/inventory/generic-sedan.jpg",
+    "small": "/images/supercars/inventory/generic-sedan-sm.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "inventory placeholder only, not the listed unit"
+  },
+  "generic-family-suv": {
+    "src": "/images/supercars/inventory/generic-family-suv.jpg",
+    "small": "/images/supercars/inventory/generic-family-suv-sm.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "inventory placeholder only, not the listed unit"
+  },
+  "generic-crossover": {
+    "src": "/images/supercars/inventory/generic-crossover.jpg",
+    "small": "/images/supercars/inventory/generic-crossover-sm.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "inventory placeholder only, not the listed unit"
+  }
+}
