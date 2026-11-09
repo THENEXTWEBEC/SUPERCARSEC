@@ -7,3 +7,9 @@ This version has breaking changes — APIs, conventions, and file structure may 
 This block is written and re-added by `next dev` — verify at `node_modules/next/dist/server/lib/generate-agent-files.js`. Removing it from a diff only re-creates the uncommitted change; committing it with your work keeps the tree clean.
 
 <!-- END:nextjs-agent-rules -->
+
+## Iconografía de la web
+
+- Nunca usar emojis ni caracteres tipográficos como iconos en móvil o escritorio.
+- Usar SVG para iconos y flechas, con trazos finos y consistentes.
+- Los SVG decorativos deben estar ocultos para lectores de pantalla; los controles interactivos deben tener un nombre accesible.
