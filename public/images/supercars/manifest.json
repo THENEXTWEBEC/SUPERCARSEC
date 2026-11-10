@@ -86,5 +86,35 @@
     "small": "/images/supercars/inventory/generic-crossover-sm.jpg",
     "status": "ai-generated-illustration",
     "usage": "inventory placeholder only, not the listed unit"
+  },
+  "generic-sedan-navy": {
+    "src": "/images/supercars/inventory/generic-sedan-navy.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "unique illustrative image for Mercedes-Benz C200 listing; not the listed unit"
+  },
+  "generic-large-suv-burgundy": {
+    "src": "/images/supercars/inventory/generic-large-suv-burgundy.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "unique illustrative image for Dodge Durango listing; not the listed unit"
+  },
+  "generic-electric-suv-green": {
+    "src": "/images/supercars/inventory/generic-electric-suv-green.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "unique illustrative image for Leapmotor C11 listing; not the listed unit"
+  },
+  "generic-compact-crossover-red": {
+    "src": "/images/supercars/inventory/generic-compact-crossover-red.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "unique illustrative image for Peugeot 2008 listing; not the listed unit"
+  },
+  "generic-passenger-van-ivory": {
+    "src": "/images/supercars/inventory/generic-passenger-van-ivory.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "unique illustrative image for Citroën Berlingo listing; not the listed unit"
+  },
+  "generic-2010s-suv-blue": {
+    "src": "/images/supercars/inventory/generic-2010s-suv-blue.jpg",
+    "status": "ai-generated-illustration",
+    "usage": "unique illustrative image for Nissan Qashqai listing; not the listed unit"
   }
 }
