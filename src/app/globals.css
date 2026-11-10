@@ -59,3 +59,23 @@
 .contact-map-frame{height:clamp(380px,46vw,620px);background:#292c2e;border:1px solid #54585a;overflow:hidden}
 .contact-map-frame iframe{display:block;width:100%;height:100%;border:0}
 @media(max-width:680px){.contact-map-heading{display:block;margin-bottom:24px}.contact-map-heading h2{margin-bottom:15px}.contact-map-heading p{align-items:flex-start;font-size:12px}.contact-map-heading .text-link{margin-top:25px}.contact-map-frame{height:380px}}
+
+/* Supplied Supercars symbol beside the site signature. */
+.brand{display:inline-flex;align-items:center;gap:9px}
+.brand .brand-wordmark{font-weight:800;white-space:nowrap}
+.brand .brand-wordmark>span{font-weight:400}
+.brand-symbol{position:relative;display:block;flex:none;width:38px;height:40px;overflow:hidden}
+.brand-symbol img{position:absolute;left:-28px;top:-1px;width:94px;height:auto;max-width:none}
+.footer-brand{gap:13px}
+.footer-brand .brand-symbol{width:50px;height:53px}
+.footer-brand .brand-symbol img{left:-37px;top:-1px;width:125px}
+.footer-top .brand .brand-wordmark,.footer-top .brand .brand-wordmark>span{font-size:inherit;color:inherit}
+@media(max-width:680px){.brand{gap:6px}.site-header .brand-symbol{width:34px;height:36px}.site-header .brand-symbol img{left:-25px;width:84px}}
+
+/* Hero copy requested by the client. */
+.hero .hero-title-new{font-size:clamp(50px,5.3vw,82px);line-height:1.04}
+.hero-title-new>span,.hero-title-new>em{display:block}
+.hero-title-new>span:first-child{font-size:.48em;font-weight:600;letter-spacing:-.045em;margin-bottom:.32em;color:#fff}
+.hero-title-new>em{font-style:normal;font-weight:800;color:#e1b9bb}
+.hero-title-new>span:last-child{font-weight:800;color:#fff}
+@media(max-width:680px){.hero .hero-title-new{font-size:clamp(43px,9.3vw,55px);margin-bottom:13px}.hero-title-new>span:first-child{font-size:.54em;margin-bottom:.38em}}
