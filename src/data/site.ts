@@ -14,7 +14,7 @@ export const images = {
   detailingPage: asset('/images/supercars/home/detailing-interior.jpg'),
   closing: asset('/images/supercars/home/closing-drive.jpg')
 };
-export type Vehicle = { id:string; slug:string; brand:string; model:string; version?:string; year:number; km:number; price:number; transmission:string; body:string; category:string; source:string; updated:string; fuel?:string; engine?:string; drive?:string; equipment?:string[]; status?:'por-confirmar'|'disponible'|'reservado'|'vendido'; image?:string; inspection?:Record<string,string> };
+export type Vehicle = { demo?:boolean; location?:string; id:string; slug:string; brand:string; model:string; version?:string; year:number; km:number; price:number; transmission:string; body:string; category:string; source:string; updated:string; fuel?:string; engine?:string; drive?:string; equipment?:string[]; status?:'por-confirmar'|'disponible'|'reservado'|'vendido'; image?:string; inspection?:Record<string,string> };
 const source = business.source;
 export const vehicles: Vehicle[] = [
   {id:'sc-01',image:asset('/images/supercars/inventory/generic-performance-suv.jpg'),slug:'maserati-grecale-gt-2024',brand:'Maserati',model:'Grecale',version:'GT',year:2024,km:19000,price:79990,transmission:'Automática',body:'SUV',category:'rendimiento',source,updated:'2026-11-08'},
@@ -26,10 +26,11 @@ export const vehicles: Vehicle[] = [
   {id:'sc-07',image:asset('/images/supercars/inventory/generic-family-suv.jpg'),slug:'leapmotor-c11-2023',brand:'Leapmotor',model:'C11',year:2023,km:24600,price:27490,transmission:'Automática',body:'SUV',category:'familia',source,updated:'2026-11-08'},
   {id:'sc-08',image:asset('/images/supercars/inventory/generic-crossover.jpg'),slug:'peugeot-2008-2026',brand:'Peugeot',model:'2008',year:2026,km:10900,price:25990,transmission:'Automática',body:'SUV',category:'ciudad',source,updated:'2026-11-08'},
   {id:'sc-09',image:asset('/images/supercars/inventory/generic-family-suv.jpg'),slug:'citroen-berlingo-2025',brand:'Citroën',model:'Berlingo',year:2025,km:41600,price:25990,transmission:'Manual',body:'Utilitario',category:'familia',source,updated:'2026-11-08'},
-  {id:'sc-10',image:asset('/images/supercars/inventory/generic-crossover.jpg'),slug:'nissan-qashqai-2016',brand:'Nissan',model:'Qashqai',year:2016,km:99300,price:17490,transmission:'Manual',body:'SUV',category:'familia',source,updated:'2026-11-08'}
+  {id:'sc-10',image:asset('/images/supercars/inventory/generic-crossover.jpg'),slug:'nissan-qashqai-2016',brand:'Nissan',model:'Qashqai',year:2016,km:99300,price:17490,transmission:'Manual',body:'SUV',category:'familia',source,updated:'2026-11-08'},
+  {id:'demo-audi-q5-2014',image:asset('/images/supercars/inventory/audi-q5-2014-demo.jpg'),slug:'audi-q5-2-0-2014-demostracion',brand:'Audi',model:'Q5',version:'2.0 · Todoterreno',year:2014,km:0,price:18490,transmission:'Por confirmar',body:'SUV',category:'familia',source,updated:'2026-11-10',status:'por-confirmar',demo:true,location:'Cumbayá'}
 ];
 export const money=(n:number)=>new Intl.NumberFormat('es-EC',{style:'currency',currency:'USD',maximumFractionDigits:0}).format(n);
 export const number=(n:number)=>new Intl.NumberFormat('es-EC').format(n);
 export const wa=(message:string)=>`https://wa.me/${business.whatsapp}?text=${encodeURIComponent(message)}`;
-export const vehicleWa=(v:Vehicle)=>wa(`Hola, estoy interesado en el ${v.brand} ${v.model} ${v.year} publicado por Supercars. Quisiera confirmar su disponibilidad y coordinar una visita.`);
+export const vehicleWa=(v:Vehicle)=>wa(v.demo?`Hola, quisiera información sobre la ficha de demostración del ${v.brand} ${v.model} ${v.year}. ¿Pueden confirmar los datos y disponibilidad de una unidad real?`:`Hola, estoy interesado en el ${v.brand} ${v.model} ${v.year} publicado por Supercars. Quisiera confirmar su disponibilidad y coordinar una visita.`);
 export const routes=['vehiculos','mi-garage','comparar','vende-tu-auto','financiamiento','detailing','nosotros','contacto','agendar-visita','privacidad','terminos'];
